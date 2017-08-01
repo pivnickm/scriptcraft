@@ -3,6 +3,6 @@
 
 events.blockBreak( function( event ) {
   echo( event.player, event.player.name + ', you broke a block!');
-  var playername = event.player;
-  console.log(playername);
+  var playername = event.player.name;
+  console.log(playername, ' kicking those block butts!');
 });
