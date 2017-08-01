@@ -4,5 +4,5 @@
 events.blockBreak( function( event ) {
   echo( event.player, event.player.name + ', you broke a block!');
   var location = event.block.location;
-  console.log('Location is: ', location);
+  console.log(location);
 });
