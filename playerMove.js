@@ -3,6 +3,6 @@
 
 events.blockBreak( function( event ) {
   echo( event.player, event.player.name + ', you broke a block!');
-  var loc = event.Block.Location;
-  console.log(loc);
+  var playername = event.player;
+  console.log(playername);
 });
